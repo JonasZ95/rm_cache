@@ -1,0 +1,18 @@
+[package]
+name = "cache"
+version = "0.1.0"
+authors = ["Jonas Zunker <Jonas-Zunker@hotmail.de>"]
+edition = "2018"
+
+[dependencies]
+bio = "0.26.1"
+id_tree = "1.5.0"
+failure = "0.1"
+lazy_static = "1.3.0"
+nthash = "0.4.3"
+lru = "0.1"
+rand = "0.6"
+
+[dependencies.bv]
+version = "0.10"
+features = ["serde"]
